@@ -3,7 +3,7 @@
 	"name": "Panzer IV H factory",
 	"description": "Constructs German tanks. Which tanks? Look at the facility's name again.",
 	"unitType": "advanced-brawler",
-	"produceTime": 2000,
+	"produceTime": 2,
 	"size": 3,
 	"consumes": {
 		"power": 0,
