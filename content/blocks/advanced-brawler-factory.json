@@ -6,7 +6,7 @@
 	"produceTime": 2000,
 	"size": 3,
 	"consumes": {
-		"power": 1.45,
+		"power": 0,
 		"items": {
 		"items": [
             {"item": "silicon", "amount": 0},
