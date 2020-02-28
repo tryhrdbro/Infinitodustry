@@ -109,6 +109,6 @@
 		}
 	    },
 	"requirements": [],
-	"buildVisibility": "sandboxOnly",
+	"buildVisibility":,
 	"category": "turret"
 }
