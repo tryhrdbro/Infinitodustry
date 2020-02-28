@@ -96,9 +96,8 @@
 		}
 	    },
 	"requirements": [
-		{ "item": "lead", "amount": 70 },
-		{ "item": "copper", "amount": 140 },
-        { "item": "visionary-glass", "amount": 50 }
+		{ "item": "lead", "amount": 0 },
+
 	],
 	"category": "turret",
 	"research": "scatter"
