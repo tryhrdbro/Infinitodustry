@@ -5,8 +5,7 @@
 	"health": 355,
 	"BlockGroup": "liquids",
 	"requirements": [
-		{"item": "silicon", "amount": 1},
-		{"item": "stone", "amount": 2}
+		{"item": "silicon", "amount": 0}
 	],
 	"category": "liquid",
 	"research": "pulse-conduit",
