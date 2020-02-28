@@ -5,8 +5,7 @@
 	"type": "UnitFactory",
 	"unitType": "supreme-lich",
 	"size": 1,
-	"produceTime": 6000,
-  "buildVisibility": "sandboxOnly",
+	"produceTime": 6000,,
 	"maxSpawn": 1,
 	"consumes": {
 		"power": 1.0
