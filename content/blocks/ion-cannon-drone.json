@@ -33,7 +33,7 @@
 	"homingPower" : 2,
             "homingRange" : 100,
             "fragbullets":10
-	"fragBullet" {
+	"fragBullet": {
 					  "damage": 2500,
 					  "speed": 0,
 					  "bulletWidth": 5,
