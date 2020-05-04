@@ -94,6 +94,8 @@
 			"shootEffect": "explosion",
 			"smokeEffect": "shootBigSmoke",
 			"reloadMultiplier": 0.75
+            "lightining" : 10,
+            "lightningLength" : 50
 		},
 		"phase-fabric": {
 			"speed": 20,
