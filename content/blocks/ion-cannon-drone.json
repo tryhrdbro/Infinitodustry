@@ -39,8 +39,7 @@
 					  "bulletWidth": 5,
 					  "bulletHeight": 100,
 					  "lifetime": 35,
-					},
-		},
+				},
 	"requirements": [
 		{ "item": "lead", "amount": 0 },
 		{ "item": "silicon", "amount": 0 },
