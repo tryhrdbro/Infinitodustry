@@ -124,6 +124,5 @@
         { "item": "graphite", "amount": 0 }
 	],
 	"category": "turret",
-	"buildVisibility": "sandboxOnly",
 	"alwaysUnlocked": true
 }
