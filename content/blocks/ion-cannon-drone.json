@@ -22,7 +22,7 @@
 	"BlockGroup": "turrets",
 	"hasPower": true,
 	"type": "oof"
-	"speed" 0,
+	"speed": 0,
 	"damage": 100005,
 	"bulletWidth": 6,
 	"bulletHeight": 1000000,
