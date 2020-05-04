@@ -88,8 +88,8 @@
 					  "bulletWidth": 20,
 					  "bulletHeight": 100,
 					  "lifetime": 35,
-                                          "lightining" : 15,
-                                          "lightningLength" : 65
+                                          "lightining" : 5,
+                                          "lightningLength" : 45
 					},
 			"fragBullets": 50
 		},
