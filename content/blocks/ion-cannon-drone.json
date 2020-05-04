@@ -69,9 +69,9 @@
 		},
 		"silicon": {
 			"speed": 0,
-                        "peirce",
+                        "peirce":100,
 			"damage": 10005,
-			"bulletWidth": 6,
+			"bulletWidth": 10,
 			"bulletHeight": 10000,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke",
@@ -80,9 +80,9 @@
             "homingRange" : 50,
             "fragBullet":{
 					  "damage": 25,
-                                          "peirce",
+                                          "peirce":100,
 					  "speed": 3,
-					  "bulletWidth": 5,
+					  "bulletWidth": 9,
 					  "bulletHeight": 100,
 					  "lifetime": 35,
 					},
