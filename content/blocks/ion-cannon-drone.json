@@ -84,12 +84,12 @@
             "fragBullet":{
 					  "damage": 2500,
                                           "peirce": true,
-					  "speed": 3,
+					  "speed": 5,
 					  "bulletWidth": 20,
 					  "bulletHeight": 100,
-					  "lifetime": 35,
+					  "lifetime": 45,
                                           "lightining" : 5,
-                                          "lightningLength" : 35
+                                          "lightningLength" : 25
 					},
 			"fragBullets": 50
 		},
