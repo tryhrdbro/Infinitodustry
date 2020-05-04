@@ -68,11 +68,11 @@
 			"fragBullets": 15
 		},
 		"silicon": {
-			"speed": 0,
+			"speed": 3,
                         "peirce":100,
 			"damage": 10005,
 			"bulletWidth": 10,
-			"bulletHeight": 10000,
+			"bulletHeight": 1000,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke",
 			"lifetime": 400,
