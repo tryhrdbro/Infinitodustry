@@ -69,7 +69,7 @@
 		},
 		"silicon": {
 			"speed": 0,
-                        "peirce"
+                        "peirce",
 			"damage": 10005,
 			"bulletWidth": 6,
 			"bulletHeight": 10000,
@@ -80,7 +80,7 @@
             "homingRange" : 50,
             "fragBullet":{
 					  "damage": 25,
-                                          "peirce"
+                                          "peirce",
 					  "speed": 3,
 					  "bulletWidth": 5,
 					  "bulletHeight": 100,
