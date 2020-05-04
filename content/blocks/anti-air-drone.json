@@ -16,7 +16,7 @@
 	"ammo": {
 		"tensor": {
 			"speed": 6,
-			"damage": 25,
+			"damage": 250,
 			"bulletWidth": 6,
 			"lifetime": 200,
 			"bulletHeight": 10,
