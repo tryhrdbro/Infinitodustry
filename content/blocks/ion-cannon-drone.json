@@ -4,10 +4,10 @@
 	"description": "Powerful single-shot cannon capable of eradicating most of Divinity's advesaries. It's designer, TrinityXyz, was executed by drones with it.",
 	"health": 2350,
 	"size": 4,
-	"reload": 135,
+	"reload": 5,
 	"targetGround": true,
 	"targetAir": true,
-	"range": 250,
+	"range": 2500,
 	"ammoUseEffect": "shellEjectBig",
 	"inaccuracy": 0,
 	"rotatespeed": 10,
@@ -15,12 +15,76 @@
 	"BlockGroup": "turrets",
 	"ammo": {
 		"infiar": {
-			"speed": 20,
-			"damage": 1400,
-			"bulletWidth": 10,
-			"bulletHeight": 100,
+			"speed": 6,
+			"damage": 250,
+			"bulletWidth": 6,
+			"lifetime": 200,
+			"bulletHeight": 10,
 			"shootEffect": "shootBig",
-			"smokeEffect": "shootBigSmoke"
+			"smokeEffect": "shootBigSmoke",
+			"fragBullet":{
+					  "damage": 25,
+					  "speed": 3,
+					  "bulletWidth": 5,
+					  "bulletHeight": 3,
+					  "lifetime": 35,
+					},
+			"fragBullets": 35
+		},
+		"blast-fabric":
+			{
+			"speed": 6,
+			"damage": 75,
+			"bulletWidth": 6,
+			"lifetime": 200,
+			"bulletHeight": 6,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"fragBullet":{
+					  "damage": 5,
+					  "speed": 3,
+					  "bulletWidth": 5,
+					  "bulletHeight": 3,
+					  "lifetime": 45,
+					},
+			"fragBullets": 15
+			},
+		"lead": {
+			"speed": 6,
+			"damage": 30,
+			"bulletWidth": 6,
+			"bulletHeight": 10,
+			"lifetime": 200,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"reloadMultiplier": 0.8,
+			"fragBullet":{
+					  "damage": 30,
+					  "speed": 3,
+					  "bulletWidth": 5,
+					  "bulletHeight": 3,
+					  "lifetime": 35,
+					},
+			"fragBullets": 15
+		},
+		"silicon": {
+			"speed": 6,
+			"damage": 15,
+			"bulletWidth": 6,
+			"bulletHeight": 10,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"lifetime": 400,
+			"homingPower" : 2,
+            "homingRange" : 50,
+            "fragBullet":{
+					  "damage": 25,
+					  "speed": 3,
+					  "bulletWidth": 5,
+					  "bulletHeight": 3,
+					  "lifetime": 35,
+					},
+			"fragBullets": 10
 		},
 		"blast-compound": {
 			"speed": 20,
@@ -52,14 +116,14 @@
 		},
 	    },
 	"requirements": [
-		{ "item": "lead", "amount": 500 },
-		{ "item": "silicon", "amount": 500 },
-		{ "item": "copper", "amount": 500 },
-        { "item": "scalar", "amount": 500 },
-        { "item": "matrix", "amount": 500 },
-        { "item": "graphite", "amount": 500 }
+		{ "item": "lead", "amount": 0 },
+		{ "item": "silicon", "amount": 0 },
+		{ "item": "copper", "amount": 0 },
+        { "item": "scalar", "amount": 0 },
+        { "item": "matrix", "amount": 0 },
+        { "item": "graphite", "amount": 0 }
 	],
 	"category": "turret",
 	"buildVisibility": "sandboxOnly",
-	"alwaysUnlocked": false
+	"alwaysUnlocked": true
 }
