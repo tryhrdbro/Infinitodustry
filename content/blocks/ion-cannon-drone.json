@@ -69,24 +69,29 @@
 		},
 		"silicon": {
 			"speed": 25,
-                        "peirce":100,
+                        "peirce": true,
 			"damage": 10005,
 			"bulletWidth": 10,
 			"bulletHeight": 20,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke",
 			"lifetime": 400,
-			"homingPower" : 2,
-            "homingRange" : 50,
+			"homingPower" : 4,
+                        "reloadMultiplier": 0.50
+                        "homingRange" : 50,
+                        "lightining" : 15,
+                        "lightningLength" : 65,
             "fragBullet":{
 					  "damage": 25,
-                                          "peirce":100,
+                                          "peirce": true,
 					  "speed": 3,
 					  "bulletWidth": 20,
 					  "bulletHeight": 100,
 					  "lifetime": 35,
+                                          "lightining" : 15,
+                                          "lightningLength" : 65
 					},
-			"fragBullets": 10
+			"fragBullets": 50
 		},
 		"blast-compound": {
 			"speed": 20,
