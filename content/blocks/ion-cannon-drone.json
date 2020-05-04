@@ -21,7 +21,7 @@
 	"shootSound": "corexplode",
 	"BlockGroup": "turrets",
 	"hasPower": true,
-	{"type": "oof"
+	"type": "oof"
 	"speed" 0,
 	"damage": 100005,
 	"bulletWidth": 6,
