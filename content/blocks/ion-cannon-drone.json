@@ -12,7 +12,6 @@
 	"range": 2500,
 	"ammoUseEffect": "shellEjectBig",
 	"inaccuracy": 0,
-	"pierce"
 	"shootCone": 24,
 	"chargeTime": 1,
 	"chargeEffects": 5,
@@ -22,7 +21,7 @@
 	"shootSound": "corexplode",
 	"BlockGroup": "turrets",
 	"hasPower": true,
-	"type": "oof"
+	{"type": "oof"
 	"speed" 0,
 	"damage": 100005,
 	"bulletWidth": 6,
@@ -40,7 +39,6 @@
 					  "bulletHeight": 100,
 					  "lifetime": 35,
 					},
-			"fragBullets": 10
 		},
 	"requirements": [
 		{ "item": "lead", "amount": 0 },
