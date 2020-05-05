@@ -13,3 +13,4 @@
 "health": 100000000000000,
 "size": 1,
 "buildVisibility": shown,
+"alwaysUnlocked": true
