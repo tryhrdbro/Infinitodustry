@@ -28,7 +28,7 @@
 "silicon": {
 	"peirce": true.
    	 "splashDamageRadius": 10,
-"lifetime": 180
+"lifetime": 1000
    	 "splashDamage": 1000,
 	"incendAmount": 10,
 	"incendSpread": 10,
@@ -43,7 +43,7 @@
         "damage": 100,
         "color": "00A9FF",
         "effect": "lightningCharge"}
-	"fragBullets": 10,
+	"fragBullets": 5,
 	   "fragBullet":{
 					"type": "BasicBulletType"
 					"damage": 25000,
