@@ -33,6 +33,7 @@
 	"incendChance": 100,
 	"damage": 100000,
 	"statusDuration": 300,
+	"ammo": {
       "silicon": {
         "name": "oof",
         "speedMultiplier": 0,
