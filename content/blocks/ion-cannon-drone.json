@@ -31,7 +31,7 @@
 	"incendAmount": 10,
 	"incendSpread": 10,
 	"incendChance": 100,
-	"damage": 100000,
+	"damage": 100000000,
 	"statusDuration": 300,
         "status": {
 "name": "oof",
@@ -40,26 +40,25 @@
         "armorMultiplier": 0,
         "damage": 100,
         "color": "00A9FF",
-        "effect": "lightningCharge"}
-	"fragBullets": 5,
+        "effect": "lightningCharge"}	
+	"fragBullets": 3,
 	   "fragBullet":{
 					"type": "MissleBulletType"
-					"damage": 25000,
+					"damage": 25000000,
                                           "peirce": true,
 					  "speed": 5,
 					  "bulletWidth": 20,
 					  "bulletHeight": 100,
 					  "lifetime": 45,
-                                          "lightining" : 5,
-                                          "lightningLength" : 2
 		"fragBullets":2
 		"fragBullet": {
     "type": "MissileBulletType",
     "lifetime": 1000,
     "speed": 2,
-    "splashDamageRadius": 2,
-    "splashDamage": 9,
+    "splashDamageRadius": 200,
+    "splashDamage": 900000,
     "frontColor": "ffff00",
+		"damage": 2400000,
     "backColor": "00ffff",
     "homingPower": 5,
     "homingRange": 500,
@@ -68,6 +67,7 @@
         "type": "LiquidBulletType",
         "liquid": "oil",
         "lifetime": 2,
+		"damage": 5000000,
         "speed": 1,
         "fragBullets": 2,
         "fragBullet": {
@@ -75,8 +75,19 @@
             "liquid": "slag",
             "lifetime": 1,
             "speed": 2,
-            "damage": 1,
-        },
+            "damage": 10000,
+		                                          "lightining" : 5,
+                                          "lightningLength" : 2,	
+		"statusDuration": 300,
+        "status": {
+"name": "oof",
+        "speedMultiplier": 0,
+        "damageMultiplier": 0,
+        "armorMultiplier": 0,
+        "damage": 100,
+        "color": "00A9FF",
+        "effect": "lightningCharge"}
+        },	
     },
 },
 					},
