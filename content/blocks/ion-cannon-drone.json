@@ -21,8 +21,7 @@
 	"BlockGroup": "turrets",
 	"powerUse": 10,
 	"firingMoveFract": 1,
-	"shootDuration": 1000,
-	"chargeTime": 1
+	"reload": 1,
 	"canOverdrive": true,
 	"coolantMultiplier": 10,
 	"peirce": true.
