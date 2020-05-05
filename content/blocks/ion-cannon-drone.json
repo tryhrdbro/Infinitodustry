@@ -37,6 +37,7 @@
         "damage": 100,
         "color": "00A9FF",
         "effect": "lightningCharge",
+		}
 	"requirements": [
 		{ "item": "lead", "amount": 0 },
 		{ "item": "silicon", "amount": 0 },
