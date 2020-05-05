@@ -8,21 +8,21 @@
 	"shots": 10
 	"shootcone": 25,
 	"targetAir": true,
-	"shootType": "meltdownLaser",
+	"shootType": "lancerLaser",
 	"recoil": 2,
 	"range": 2500,
 	"ammoUseEffect": "shellEjectBig",
 	"inaccuracy": 0,
 	"rotatespeed": 10,
 	"shootSound": "corexplode",
-	"bulletHeight": 100000
-	"bulletWidth": 100
+	"bulletHeight": 10000000
+	"bulletWidth": 10000
 	"coolantMultipier": 10,
 	"BlockGroup": "turrets",
 	"powerUse": 10,
 	"firingMoveFract": 1,
 	"shootDuration": 1000,
-	"chargeTime": 2
+	"chargeTime": 1
 	"canOverdrive": true,
 	"coolantMultiplier": 10,
 	"peirce": true.
