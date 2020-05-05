@@ -6,7 +6,7 @@
 	"size": 4,
 	"targetGround": true,
 	"shots": 5,
-	"shootcone": 25,
+	"shootcone": 3,
 	"targetAir": true,
 	"shootType": "lancerLaser",
 	"range": 2500,
@@ -14,8 +14,6 @@
 	"inaccuracy": 0,
 	"rotatespeed": 10,
 	"shootSound": "corexplode",
-	"bulletHeight": 1000000000000
-	"bulletWidth": 1000000
 	"coolantMultipier": 10,
 	"BlockGroup": "turrets",
 	"powerUse": 10,
@@ -45,7 +43,7 @@
         "effect": "lightningCharge"}
 	"fragBullets": 5,
 	   "fragBullet":{
-					"type": "BasicBulletType"
+					"type": "MissleBulletType"
 					"damage": 25000,
                                           "peirce": true,
 					  "speed": 5,
@@ -53,7 +51,34 @@
 					  "bulletHeight": 100,
 					  "lifetime": 45,
                                           "lightining" : 5,
-                                          "lightningLength" : 10
+                                          "lightningLength" : 2
+		"fragBullets":2
+		"fragBullet": {
+    "type": "MissileBulletType",
+    "lifetime": 1000,
+    "speed": 2,
+    "splashDamageRadius": 2,
+    "splashDamage": 9,
+    "frontColor": "ffff00",
+    "backColor": "00ffff",
+    "homingPower": 5,
+    "homingRange": 500,
+    "fragBullets": 3,
+    "fragBullet": {
+        "type": "LiquidBulletType",
+        "liquid": "oil",
+        "lifetime": 2,
+        "speed": 1,
+        "fragBullets": 2,
+        "fragBullet": {
+            "type": "LiquidBulletType",
+            "liquid": "slag",
+            "lifetime": 1,
+            "speed": 2,
+            "damage": 1,
+        },
+    },
+},
 					},
                    },
 },
