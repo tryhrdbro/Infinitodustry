@@ -19,7 +19,7 @@
 	"coolantMultipier": 10,
 	"BlockGroup": "turrets",
 	"powerUse": 10,
-	"speed": 30,
+	"speed": 100,
 	"firingMoveFract": 1,
 	"reload": 0.1,
 	"canOverdrive": true,
