@@ -5,7 +5,7 @@
 	"health": 235000,
 	"size": 4,
 	"targetGround": true,
-	"shots": 5
+	"shots": 10
 	"shootcone": 25,
 	"targetAir": true,
 	"shootType": "meltdownLaser",
@@ -15,11 +15,12 @@
 	"inaccuracy": 0,
 	"rotatespeed": 10,
 	"shootSound": "corexplode",
+	"bulletHeight": 1000
 	"coolantMultipier": 10,
 	"BlockGroup": "turrets",
 	"powerUse": 10,
 	"firingMoveFract": 1,
-	"shootDuration": 210,
+	"shootDuration": 1000,
 	"canOverdrive": true,
 	"coolantMultiplier": 10,
 	"peirce": true.
@@ -37,6 +38,8 @@
         "damage": 100,
         "color": "00A9FF",
         "effect": "lightningCharge",
+	"fragBullets": 25
+	"
 		}
 	"requirements": [
 		{ "item": "lead", "amount": 0 },
