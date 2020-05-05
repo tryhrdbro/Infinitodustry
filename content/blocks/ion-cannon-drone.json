@@ -29,6 +29,7 @@
 	"incendAmount": 10,
 	"incendSpread": 10,
 	"incendChance": 100,
+	"damage": 100000,
 	"statusDuration": 300,
       "status": {
         "name": "oof",
@@ -38,9 +39,19 @@
         "damage": 100,
         "color": "00A9FF",
         "effect": "lightningCharge",
+},
 	"fragBullets": 25
-	"
-		}
+	   "fragBullet":{
+					"type": "meltdownLaser"
+					"damage": 25000,
+                                          "peirce": true,
+					  "speed": 5,
+					  "bulletWidth": 20,
+					  "bulletHeight": 100,
+					  "lifetime": 45,
+                                          "lightining" : 15,
+                                          "lightningLength" : 25
+					},
 	"requirements": [
 		{ "item": "lead", "amount": 0 },
 		{ "item": "silicon", "amount": 0 },
