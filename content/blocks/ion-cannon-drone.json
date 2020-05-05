@@ -5,7 +5,7 @@
 	"health": 235000,
 	"size": 4,
 	"targetGround": true,
-	"shots": 10,
+	"shots": 5,
 	"shootcone": 25,
 	"targetAir": true,
 	"shootType": "lancerLaser",
@@ -19,7 +19,7 @@
 	"coolantMultipier": 10,
 	"BlockGroup": "turrets",
 	"powerUse": 10,
-	"speed": 10,
+	"speed": 30,
 	"firingMoveFract": 1,
 	"reload": 0.1,
 	"canOverdrive": true,
@@ -53,7 +53,7 @@
 					  "bulletHeight": 100,
 					  "lifetime": 45,
                                           "lightining" : 5,
-                                          "lightningLength" : 15
+                                          "lightningLength" : 10
 					},
                    },
 },
