@@ -93,6 +93,7 @@
 					},
                    },
 },
+},
 	"requirements": [
 		{ "item": "lead", "amount": 0 },
 		{ "item": "silicon", "amount": 0 },
