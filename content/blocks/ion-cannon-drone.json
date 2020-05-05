@@ -8,7 +8,7 @@
 	"shots": 5
 	"shootcone": 25,
 	"targetAir": true,
-	"shootType": "meltdownlaser",
+	"shootType": "meltdownLaser",
 	"recoil": 2,
 	"range": 2500,
 	"ammoUseEffect": "shellEjectBig",
