@@ -1,5 +1,5 @@
 {
-	"type": "LaserTurret",
+	"type": "itemTurret",
 	"name": "Erradication cannon",
 	"description": "Powerful single-shot cannon capable of eradicating most of Divinity's advesaries. It's designer, TrinityXyz, was executed by drones with it.",
 	"health": 235000,
@@ -24,15 +24,16 @@
 	"reload": 0.1,
 	"canOverdrive": true,
 	"coolantMultiplier": 100,
+	"silicon": {
 	"peirce": true.
-   	 "splashDamageRadius": 2,
+   	 "splashDamageRadius": 10,
    	 "splashDamage": 1000,
 	"incendAmount": 10,
 	"incendSpread": 10,
 	"incendChance": 100,
 	"damage": 100000,
 	"statusDuration": 300,
-      "status": {
+      "silicon": {
         "name": "oof",
         "speedMultiplier": 0,
         "damageMultiplier": 0,
@@ -53,6 +54,7 @@
                                           "lightining" : 15,
                                           "lightningLength" : 25
 					},
+},
 	"requirements": [
 		{ "item": "lead", "amount": 0 },
 		{ "item": "silicon", "amount": 0 },
