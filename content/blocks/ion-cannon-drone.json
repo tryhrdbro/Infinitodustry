@@ -5,7 +5,7 @@
 	"health": 235000,
 	"size": 4,
 	"targetGround": true,
-	"shots": 10
+	"shots": 10,
 	"shootcone": 25,
 	"targetAir": true,
 	"shootType": "lancerLaser",
@@ -43,7 +43,7 @@
         "damage": 100,
         "color": "00A9FF",
         "effect": "lightningCharge"}
-	"fragBullets": 25,
+	"fragBullets": 10,
 	   "fragBullet":{
 					"type": "BasicBulletType"
 					"damage": 25000,
@@ -52,8 +52,8 @@
 					  "bulletWidth": 20,
 					  "bulletHeight": 100,
 					  "lifetime": 45,
-                                          "lightining" : 15,
-                                          "lightningLength" : 25
+                                          "lightining" : 5,
+                                          "lightningLength" : 15
 					},
                    },
 },
