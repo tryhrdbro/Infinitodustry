@@ -15,12 +15,14 @@
 	"inaccuracy": 0,
 	"rotatespeed": 10,
 	"shootSound": "corexplode",
-	"bulletHeight": 1000
+	"bulletHeight": 100000
+	"bulletWidth": 100
 	"coolantMultipier": 10,
 	"BlockGroup": "turrets",
 	"powerUse": 10,
 	"firingMoveFract": 1,
 	"shootDuration": 1000,
+	"chargeTime": 2
 	"canOverdrive": true,
 	"coolantMultiplier": 10,
 	"peirce": true.
@@ -42,7 +44,7 @@
 },
 	"fragBullets": 25
 	   "fragBullet":{
-					"type": "meltdownLaser"
+					"type": "BasicBulletType"
 					"damage": 25000,
                                           "peirce": true,
 					  "speed": 5,
