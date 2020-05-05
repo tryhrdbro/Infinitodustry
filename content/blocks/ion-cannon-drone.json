@@ -28,6 +28,7 @@
 "silicon": {
 	"peirce": true.
    	 "splashDamageRadius": 10,
+"lifetime": 180
    	 "splashDamage": 1000,
 	"incendAmount": 10,
 	"incendSpread": 10,
