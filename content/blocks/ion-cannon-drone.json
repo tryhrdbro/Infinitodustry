@@ -14,6 +14,8 @@
 	"inaccuracy": 0,
 	"rotatespeed": 10,
 	"shootSound": "corexplode",
+	"bulletHeight": 1000000000000
+	"bulletWidth": 1000000
 	"coolantMultipier": 10,
 	"BlockGroup": "turrets",
 	"powerUse": 10,
@@ -31,7 +33,7 @@
 	"incendAmount": 10,
 	"incendSpread": 10,
 	"incendChance": 100,
-	"damage": 100000000,
+	"damage": 100000,
 	"statusDuration": 300,
         "status": {
 "name": "oof",
@@ -40,60 +42,29 @@
         "armorMultiplier": 0,
         "damage": 100,
         "color": "00A9FF",
-        "effect": "lightningCharge"}	
-	"fragBullets": 3,
+        "effect": "lightningCharge"}
+	"fragBullets": 5,
 	   "fragBullet":{
-					"type": "MissleBulletType"
-					"damage": 25000000,
+					"type": "BasicBulletType"
+					"damage": 25000,
                                           "peirce": true,
 					  "speed": 5,
 					  "bulletWidth": 20,
 					  "bulletHeight": 100,
 					  "lifetime": 45,
-		"fragBullets":2
-		"fragBullet": {
-    "type": "MissileBulletType",
-    "lifetime": 1000,
-    "speed": 2,
-    "splashDamageRadius": 200,
-    "splashDamage": 900000,
-    "frontColor": "ffff00",
-		"damage": 2400000,
-    "backColor": "00ffff",
-    "homingPower": 5,
-    "homingRange": 500,
-    "fragBullets": 3,
-    "fragBullet": {
-        "type": "LiquidBulletType",
-        "liquid": "oil",
-        "lifetime": 2,
-		"damage": 5000000,
-        "speed": 1,
-        "fragBullets": 2,
-        "fragBullet": {
-            "type": "LiquidBulletType",
-            "liquid": "slag",
-            "lifetime": 1,
-            "speed": 2,
-            "damage": 10000,
-		                                          "lightining" : 5,
-                                          "lightningLength" : 2,	
-		"statusDuration": 300,
-        "status": {
-"name": "oof",
-        "speedMultiplier": 0,
-        "damageMultiplier": 0,
-        "armorMultiplier": 0,
-        "damage": 100,
-        "color": "00A9FF",
-        "effect": "lightningCharge"}
-        },	
-    },
-},
+                                          "lightining" : 5,
+                                          "lightningLength" : 10
 					},
                    },
 },
-},
+	"requirements": [
+		{ "item": "lead", "amount": 0 },
+		{ "item": "silicon", "amount": 0 },
+		{ "item": "copper", "amount": 0 },
+        { "item": "scalar", "amount": 0 },
+        { "item": "matrix", "amount": 0 },
+        { "item": "graphite", "amount": 0 }
+	],
 	"category": "turret",
 	"alwaysUnlocked": true
 }
