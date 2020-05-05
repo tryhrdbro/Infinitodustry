@@ -9,21 +9,21 @@
 	"shootcone": 25,
 	"targetAir": true,
 	"shootType": "lancerLaser",
-	"recoil": 2,
 	"range": 2500,
 	"ammoUseEffect": "shellEjectBig",
 	"inaccuracy": 0,
 	"rotatespeed": 10,
 	"shootSound": "corexplode",
-	"bulletHeight": 10000000
-	"bulletWidth": 10000
+	"bulletHeight": 1000000000000
+	"bulletWidth": 1000000
 	"coolantMultipier": 10,
 	"BlockGroup": "turrets",
 	"powerUse": 10,
+	"speed": 10,
 	"firingMoveFract": 1,
-	"reload": 1,
+	"reload": 0.1,
 	"canOverdrive": true,
-	"coolantMultiplier": 10,
+	"coolantMultiplier": 100,
 	"peirce": true.
    	 "splashDamageRadius": 2,
    	 "splashDamage": 1000,
