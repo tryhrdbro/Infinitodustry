@@ -33,6 +33,7 @@
 	"incendChance": 100,
 	"damage": 100000,
 	"statusDuration": 300,
+	
 	"ammo": {
       "silicon": {
         "name": "oof",
@@ -42,7 +43,6 @@
         "damage": 100,
         "color": "00A9FF",
         "effect": "lightningCharge",
-},
 	"fragBullets": 25
 	   "fragBullet":{
 					"type": "BasicBulletType"
@@ -55,7 +55,6 @@
                                           "lightining" : 15,
                                           "lightningLength" : 25
 					},
-},
 },
 	"requirements": [
 		{ "item": "lead", "amount": 0 },
