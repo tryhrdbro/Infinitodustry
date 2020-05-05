@@ -24,7 +24,8 @@
 	"reload": 0.1,
 	"canOverdrive": true,
 	"coolantMultiplier": 100,
-	"silicon": {
+	"ammo": {
+"silicon": {
 	"peirce": true.
    	 "splashDamageRadius": 10,
    	 "splashDamage": 1000,
@@ -33,9 +34,6 @@
 	"incendChance": 100,
 	"damage": 100000,
 	"statusDuration": 300,
-	
-	"ammo": {
-      "silicon": {
         "status": {
 "name": "oof",
         "speedMultiplier": 0,
