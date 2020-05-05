@@ -36,14 +36,15 @@
 	
 	"ammo": {
       "silicon": {
-        "name": "oof",
+        "status": {
+"name": "oof",
         "speedMultiplier": 0,
         "damageMultiplier": 0,
         "armorMultiplier": 0,
         "damage": 100,
         "color": "00A9FF",
-        "effect": "lightningCharge",
-	"fragBullets": 25
+        "effect": "lightningCharge"}
+	"fragBullets": 25,
 	   "fragBullet":{
 					"type": "BasicBulletType"
 					"damage": 25000,
@@ -55,7 +56,7 @@
                                           "lightining" : 15,
                                           "lightningLength" : 25
 					},
-},
+                   },
 },
 	"requirements": [
 		{ "item": "lead", "amount": 0 },
