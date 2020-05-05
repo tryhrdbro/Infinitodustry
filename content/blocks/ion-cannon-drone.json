@@ -94,14 +94,6 @@
                    },
 },
 }
-	"requirements": [
-		{ "item": "lead", "amount": 0 },
-		{ "item": "silicon", "amount": 0 },
-		{ "item": "copper", "amount": 0 },
-        { "item": "scalar", "amount": 0 },
-        { "item": "matrix", "amount": 0 },
-        { "item": "graphite", "amount": 0 }
-	],
 	"category": "turret",
 	"alwaysUnlocked": true
 }
