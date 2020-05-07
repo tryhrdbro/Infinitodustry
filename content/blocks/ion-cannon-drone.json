@@ -24,7 +24,7 @@
 	"canOverdrive": true,
 	"coolantMultiplier": 100,
 	"ammo": {
-"silicon": {
+"copper": {
 	"peirce": true.
    	 "splashDamageRadius": 10,
 "lifetime": 1000
