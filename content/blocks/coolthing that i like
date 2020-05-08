@@ -1,0 +1,66 @@
+{
+	"type": "BurstTurret",
+	"name": "Plastanium Scatter",
+	"description": "A 2x2 turret that fires a scatter of bullets in a circle around it.",
+	"health": 2350,
+	"shots": 8,
+	"size": 2,
+	"reload": 40,
+	"targetGround": true,
+	"targetAir": true,
+	"shootCone": 360,
+	"range": 120,
+	"ammoUseEffect": "shellEjectBig",
+	"inaccuracy": 10,
+	"rotatespeed": 10,
+	"BlockGroup": "turrets",
+	"ammo": {
+		"plastanium": {
+			"speed": 5,
+                        "peirce": true,
+			"damage": 240,
+			"bulletWidth": 4,
+			"bulletHeight": 5,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"lifetime": 20,
+            "fragBullet":{
+					  "damage": 50,
+                                          "peirce": true,
+					  "speed": 3,
+					  "bulletWidth": 2,
+					  "bulletHeight": 3,
+					  "lifetime": 15,
+					},
+			"fragBullets": 5
+		},
+				"titanium": {
+			"speed": 5,
+                        "peirce": true,
+			"damage": 120,
+			"bulletWidth": 4,
+			"bulletHeight": 5,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"lifetime": 20,
+            "fragBullet":{
+					  "damage": 25,
+                                          "peirce": true,
+					  "speed": 3,
+					  "bulletWidth": 2,
+					  "bulletHeight": 3,
+					  "lifetime": 15,
+					},
+			"fragBullets": 5
+		},
+		},
+	"requirements": [
+		{ "item": "lead", "amount": 30 },
+		{ "item": "silicon", "amount": 5 },
+		{ "item": "plastanium", "amount": 25 },
+        { "item": "graphite", "amount": 15 }
+	],
+	"category": "turret",
+	"alwaysUnlocked": true,
+	research: salvo
+}
